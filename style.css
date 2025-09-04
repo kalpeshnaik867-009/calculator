@@ -1,0 +1,95 @@
+
+#n {
+    /* border: 1px solid black; */
+    
+    margin-top: 10px;
+    width: 100%;
+    flex-basis: 30px;
+
+}
+
+#n2,
+#sy,
+#anss,
+button {
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 50px;
+
+}
+
+.calcu {
+   display: grid;
+   grid-template-columns: repeat(1,20px);
+   grid-template-rows: repeat(2,20px);
+   display: flex;
+   flex-direction: column;
+  align-items: center;
+  
+    /* border: 3px solid rgb(95, 91, 91); */
+ 
+   
+
+}
+
+/* p {
+    text-align: center;
+    margin-bottom: -10px;
+    color: aliceblue;
+} */
+.digits{
+    
+    display: grid;
+    grid-template-columns: repeat(3,50px); 
+    grid-template-rows: repeat(4,55px);
+    gap: 5px;
+    
+  
+    
+}
+.arrSymbols{
+    display: grid;
+    grid-template-columns: repeat(1,60px);
+    grid-template-rows: repeat(4,50px);
+    gap:10px;
+    margin-left: 5px;
+    
+
+}
+
+#id-button{
+    height: 50px;
+    width: 50px;
+   
+    display:flex;
+    
+}
+.new-con{
+      display: flex;
+      flex-direction: column;
+     
+     margin-top: 30px;
+       background-color: #9c9a9a;
+     
+
+      /* margin-left: 40%; */
+  
+    border: 3px solid rgb(95, 91, 91);
+ 
+    border-radius: 10px;
+    /* width: 250px; */
+    height: 400px;
+    gap: 5px;
+
+
+}
+.arrang{
+    display: flex;
+    flex-direction: column;
+}
+.ww{
+
+    display: flex;
+    gap: 5px;
+}
